@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Solution](https://github.com/Osauyi/calculator-app-main--36.git)
+- Live Site URL: [live site](https://osauyi.github.io/calculator-app-main--36/)
 
 ## My process
 
