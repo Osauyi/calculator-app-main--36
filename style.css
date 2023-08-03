@@ -1,0 +1,258 @@
+* {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   font: inherit;
+}
+
+img,
+picture,
+svg,
+video {
+   display: block;
+   max-width: 100%;
+}
+
+body {
+   min-height: 100vh;
+   font-family: 'League Spartan', sans-serif;
+   display: flex;
+   flex-direction: column;
+   margin: 20px;
+   background-color: hsl(222, 26%, 31%);
+   color: white;
+}
+
+h1 {
+   font-size: 2rem;
+   font-weight: 700;
+   align-self: center;
+}
+
+h2 {
+   font-size: .8rem;
+   font-weight: 700;
+}
+
+/* toggleSwitch */
+
+.button {
+   height: 20px;
+   width: 20px;
+   appearance: none;
+   background-color: hsl(6, 63%, 50%);
+   border-radius: 50%;
+   opacity: 0;
+   cursor: pointer;
+}
+
+.button:hover {
+   cursor: pointer;
+   background-color: hsl(6, 86%, 67%);
+}
+
+.tri-state-toggle {
+   display: flex;
+   justify-content: center;
+   background-color: hsl(223, 31%, 20%);
+   border-radius: 50px;
+   margin: 2px;
+   padding: 5px;
+}
+
+#one {
+   opacity: 1;
+}
+
+.head {
+   display: flex;
+   justify-content: space-between;
+   font-weight: 700;
+}
+
+.togglebox {
+   display: flex;
+   align-items: flex-end;
+   justify-content: space-between;
+   width: 40%;
+}
+
+.togglebnumber {
+   display: flex;
+   justify-content: space-between;
+   width: 80%;
+   margin: 0 auto;
+}
+
+.input>input {
+   width: 100%;
+   height: 88px;
+   border-radius: 10px;
+   margin: 30px 0 28px;
+   font-weight: 700;
+   font-size: 2.5rem;
+   text-align: right;
+   padding: 40px 20px;
+   background-color: hsl(224, 36%, 15%);
+   border: none;
+   color: white;
+}
+
+.buttons-box {
+   display: grid;
+   grid-template-columns: repeat(4, 1fr);
+   gap: 10px;
+   padding: 20px;
+   border-radius: 10px;
+   background-color: hsl(223, 31%, 20%);
+}
+
+.reset {
+   grid-column: span 2;
+   padding: 18px 10px;
+}
+
+.equal {
+   grid-column: span 2;
+   color: white;
+   font-size: 1.1rem;
+   font-weight: 700;
+   border-radius: 8px;
+   background-color: hsl(6, 63%, 50%);
+   border: none;
+   padding: 18px 10px;
+   box-shadow: 0px -4px 0px 0px rgba(147, 38, 26, 1) inset;
+   -webkit-box-shadow: 0px -4px 0px 0px rgba(147, 38, 26, 1) inset;
+   -moz-box-shadow: 0px -4px 0px 0px rgba(147, 38, 26, 1) inset;
+}
+
+.equal:hover{
+   background-color: hsl(6, 86%, 67%);
+}
+
+.equalshadow1 {
+   box-shadow: 0px -4px 0px 0px rgba(147, 38, 26, 1) inset;
+   -webkit-box-shadow: 0px -4px 0px 0px rgba(147, 38, 26, 1) inset;
+   -moz-box-shadow: 0px -4px 0px 0px rgba(147, 38, 26, 1) inset;
+}
+
+.equalshadow2 {
+   box-shadow: 0px -4px 0px 0px rgba(137, 57, 1, 1) inset;
+   -webkit-box-shadow: 0px -4px 0px 0px rgba(137, 57, 1, 1) inset;
+   -moz-box-shadow: 0px -4px 0px 0px rgba(137, 57, 1, 1) inset;
+}
+
+.equalshadow3 {
+   box-shadow: 0px -4px 0px 0px rgba(108, 249, 242, 1) inset;
+   -webkit-box-shadow: 0px -4px 0px 0px rgba(108, 249, 242, 1) inset;
+   -moz-box-shadow: 0px -4px 0px 0px rgba(108, 249, 242, 1) inset;
+}
+
+.buttonalpha {
+   font-size: 1.2rem;
+   font-weight: 700;
+   border-radius: 8px;
+   border: none;
+   padding: 10px;
+   background-color: hsl(225, 21%, 49%);
+   color: white;
+   box-shadow: 0px -4px 0px 0px rgba(64, 78, 114, 1) inset;
+   -webkit-box-shadow: 0px -4px 0px 0px rgba(64, 78, 114, 1) inset;
+   -moz-box-shadow: 0px -4px 0px 0px rgba(64, 78, 114, 1) inset;
+
+}
+
+.buttonalpha:hover{
+   background-color: hsl(225, 21%, 69%);
+}
+
+.buttonalphaShadow1 {
+   box-shadow: 0px -4px 0px 0px rgba(64, 78, 114, 1) inset;
+   -webkit-box-shadow: 0px -4px 0px 0px rgba(64, 78, 114, 1) inset;
+   -moz-box-shadow: 0px -4px 0px 0px rgba(64, 78, 114, 1) inset;
+}
+
+.buttonalphaShadow2 {
+   box-shadow: 0px -4px 0px 0px rgba(27, 95, 101, 1) inset;
+   -webkit-box-shadow: 0px -4px 0px 0px rgba(27, 95, 101, 1) inset;
+   -moz-box-shadow: 0px -4px 0px 0px rgba(27, 95, 101, 1) inset;
+}
+
+.buttonalphaShadow3 {
+   box-shadow: 0px -4px 0px 0px rgba(188, 21, 244, 1) inset;
+   -webkit-box-shadow: 0px -4px 0px 0px rgba(188, 21, 244, 1) inset;
+   -moz-box-shadow: 0px -4px 0px 0px rgba(188, 21, 244, 1) inset;
+}
+
+.buttonNumb {
+   font-size: 2rem;
+   font-weight: 700;
+   padding: 15px 8px;
+   background-color: hsl(30, 25%, 89%);
+   border-radius: 8px;
+   border: none;
+   box-shadow: 0px -4px 0px 0px rgba(180, 165, 151, 1) inset;
+   -webkit-box-shadow: 0px -4px 0px 0px rgba(180, 165, 151, 1) inset;
+   -moz-box-shadow: 0px -4px 0px 0px rgba(180, 165, 151, 1) inset;
+}
+
+.buttonNumb:hover{
+   background-color: hsl(30, 25%, 99%);
+}
+
+.buttonNumbShadow1 {
+   box-shadow: 0px -4px 0px 0px rgba(180, 165, 151, 1) inset;
+   -webkit-box-shadow: 0px -4px 0px 0px rgba(180, 165, 151, 1) inset;
+   -moz-box-shadow: 0px -4px 0px 0px rgba(180, 165, 151, 1) inset;
+}
+
+.buttonNumbShadow2 {
+   box-shadow: 0px -4px 0px 0px rgba(166, 157, 145, 1) inset;
+   -webkit-box-shadow: 0px -4px 0px 0px rgba(166, 157, 145, 1) inset;
+   -moz-box-shadow: 0px -4px 0px 0px rgba(166, 157, 145, 1) inset;
+}
+
+.buttonNumbShadow3 {
+   box-shadow: 0px -4px 0px 0px rgba(135, 28, 156, 1) inset;
+   -webkit-box-shadow: 0px -4px 0px 0px rgba(135, 28, 156, 1) inset;
+   -moz-box-shadow: 0px -4px 0px 0px rgba(135, 28, 156, 1) inset;
+}
+
+.numbcalc{
+   cursor: pointer;
+}
+
+
+@media screen and (min-width: 1000px) {
+   
+   body{
+      justify-content: center;
+      align-content: center;
+      width: 37%;
+      margin: 85px auto;
+   }
+
+   .togglebox {
+   width: 26%;
+   }
+
+   .input > input{
+      height: 130px;
+      font-size: 3.5rem;
+   }
+
+   .buttons-box {
+      gap: 28px;
+      padding: 30px;
+   }
+
+   .buttonalpha {
+  font-size: 1.5rem;
+}
+
+
+.buttonNumb {
+  font-size: 2.4rem;
+  padding: 10px 8px;
+}
+}

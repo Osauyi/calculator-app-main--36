@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Frontend Mentor | Calculator app</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="head">
+        <h1>calc</h1>
+        <div class="togglebox">
+          <h2>THEME</h2>
+          <div class="toggle-numbb0x">
+            <div class="togglebnumber">
+              <h2>1</h2>
+              <h2>2</h2>
+              <h2>3</h2>
+            </div>
+            <div class="tri-state-toggle">
+              <input class="button" type="radio" name="toggle" id="one" />
+              <input class="button" type="radio" name="toggle" id="two" />
+              <input class="button" type="radio" name="toggle" id="three" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="input">
+        <input type="text" id="numberInput" readonly />
+      </div>
+      <div class="buttons-box">
+        <button class="buttonNumb numbcalc" value="7">7</button>
+        <button class="buttonNumb numbcalc" value="8">8</button>
+        <button class="buttonNumb numbcalc" value="9">9</button>
+        <button class="buttonalpha numbcalc" value="del">DEL</button>
+        <button class="buttonNumb numbcalc" value="4">4</button>
+        <button class="buttonNumb numbcalc" value="5">5</button>
+        <button class="buttonNumb numbcalc" value="6">6</button>
+        <button class="buttonNumb numbcalc" value="+">+</button>
+        <button class="buttonNumb numbcalc" value="1">1</button>
+        <button class="buttonNumb numbcalc" value="2">2</button>
+        <button class="buttonNumb numbcalc" value="3">3</button>
+        <button class="buttonNumb numbcalc" value="-">-</button>
+        <button class="buttonNumb numbcalc" value=".">.</button>
+        <button class="buttonNumb numbcalc" value="0">0</button>
+        <button class="buttonNumb numbcalc" value="/">/</button>
+        <button class="buttonNumb numbcalc" value="*">x</button>
+        <button class="reset buttonalpha numbcalc" value="clear">RESET</button>
+        <button class="equal numbcalc" value="equals">=</button>
+      </div>
+    </header>
+
+    <footer>
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">Osauyi</a>.
+      </div>
+    </footer>
+  </body>
+  <script src="index.js"></script>
+</html>
